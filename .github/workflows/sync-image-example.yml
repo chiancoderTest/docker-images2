@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/onlyoffice/controlpanel:3.5.0.516 docker://registry.cn-chengdu.aliyuncs.com/eric_lz/onlyoffice/controlpanel:3.5.0.516
+         skopeo copy docker://docker.io/onlyoffice/controlpanel:3.5.0.516 docker://registry.cn-chengdu.aliyuncs.com/eric_lz/onlyoffice-controlpanel:3.5.0.516
 
          
          
