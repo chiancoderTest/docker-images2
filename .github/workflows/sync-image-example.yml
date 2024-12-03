@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/onlyoffice/documentserver:7.4.1 docker://registry.cn-chengdu.aliyuncs.com/eric_lz/onlyoffice-documentserver:7.4.1
+         skopeo copy docker://docker.io/mysql/mysql:8.7.29 docker://registry.cn-chengdu.aliyuncs.com/eric_lz/mysql:8.7.29
          
          
          
